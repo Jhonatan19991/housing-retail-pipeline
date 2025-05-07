@@ -2,6 +2,9 @@
 
 A data pipeline project for processing and analyzing housing retail data using Apache Airflow and Azure Data Factory (ADF) with Databricks integration.
 
+## WorkFlow
+![image](https://github.com/Jhonatan19991/images/blob/main/Housing-images/housing.drawio.png)
+
 ## Project Overview
 
 This project implements an automated data pipeline for housing retail data processing and analysis. It includes data extraction, transformation, and loading (ETL) processes, along with exploratory data analysis capabilities. The solution leverages both Apache Airflow for local development and Azure Data Factory for cloud-based orchestration, with Databricks notebooks for scalable data processing.
@@ -46,6 +49,10 @@ housing-retail-pipeline/
 - Enables interactive data exploration and analysis
 - Supports both batch and streaming data processing
 - Integrates with Azure Data Factory for orchestration
+
+### ADF Pipeline
+
+![image](https://github.com/Jhonatan19991/images/blob/main/Housing-images/ADF-PipeLine.png)
 
 ## Prerequisites
 
@@ -112,6 +119,11 @@ airflow scheduler
 ```
 
 3. Access the Airflow web interface at `http://localhost:8080`
+
+4. Task overview
+![image](https://github.com/Jhonatan19991/images/blob/main/Housing-images/Airflow-Task.png)
+
+
 
 ### Azure Data Factory
 1. Access your Azure Data Factory instance through the Azure Portal
