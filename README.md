@@ -15,7 +15,6 @@ housing-retail-pipeline/
 │   └── func.py            # DAG helper functions
 ├── data/                   # Data storage directory
 ├── src/                    # Source code directory
-├── eda.ipynb              # Exploratory Data Analysis notebook
 ├── requirements.txt       # Project dependencies
 └── README.md             # Project documentation
 ```
